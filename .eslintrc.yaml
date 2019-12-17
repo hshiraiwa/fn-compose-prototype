@@ -1,0 +1,31 @@
+---
+parser: '@typescript-eslint/parser'
+plugins:
+  - '@typescript-eslint'
+  - prettier
+  - jest
+  - security
+extends:
+  - airbnb-typescript/base
+  - plugin:jest/recommended
+  - prettier/@typescript-eslint
+  - prettier
+rules:
+  prettier/prettier: error
+  class-methods-use-this: off
+  import/named: off
+  import/no-named-as-default: off
+  import/prefer-default-export: off
+  import/no-cycle: error
+  max-len: off
+  no-undef: off
+  no-unused-vars: off
+  import/no-extraneous-dependencies:
+    - error
+    - devDependencies: true
+settings:
+  import/resolver:
+    node:
+      extensions:
+        - .js
+        - .ts

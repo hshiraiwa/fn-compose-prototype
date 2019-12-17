@@ -4,6 +4,11 @@
   "main": "index.js",
   "typings": "index.d.ts",
   "license": "MIT",
+  "homepage": "https://github.com/hshiraiwa/fn-compose-prototype#readme",
+  "bugs": {
+    "url": "https://github.com/hshiraiwa/fn-compose-prototype/issues"
+  },
+  "repository": "github:hshiraiwa/fn-compose-prototype",
   "devDependencies": {
     "@types/jest": "^24.0.23",
     "@typescript-eslint/eslint-plugin": "^2.3.2",

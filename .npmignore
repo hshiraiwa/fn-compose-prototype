@@ -9,3 +9,4 @@ __tests__
 jest.config.js
 tsconfig.json
 yarn.lock
+.travisci.yml

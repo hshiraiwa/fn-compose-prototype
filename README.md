@@ -1,4 +1,6 @@
-# fn-compose-prototype
+# fn-compose-prototype 
+
+[![Build Status](https://travis-ci.com/hshiraiwa/fn-compose-prototype.svg?branch=master)](https://travis-ci.com/hshiraiwa/fn-compose-prototype)
 
 Small typescript implementation that adds `pipe` and `compose` functions to the `Function` prototype.
 

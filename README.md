@@ -2,6 +2,25 @@
 
 Small typescript implementation that adds `pipe` and `compose` functions to the `Function` prototype.
 
+## Installation
+
+1. Add to your project
+
+`npm install fn-compose-prototype`
+
+or
+
+`yarn add fn-compose-prototype`
+
+2. Import on root file
+
+`import 'fn-compose-prototype'`
+
+or
+
+`require('fn-compose-prototype')`
+
+
 ## Pipe:
 
 `Pipe` composes functions on the same order as they are declared
